@@ -1,6 +1,4 @@
-package com.example.starkre.oregoglidegalery.oregoPhotoManagement
-
-import com.example.starkre.oregoglidegalery.OregoPhoto
+package com.example.anton.oregov1.oregoPhotoManagement
 
 object OregoPhotoManager {
 
@@ -13,9 +11,9 @@ object OregoPhotoManager {
             , OregoPhoto("http://i.imgur.com/pSHXfu5.jpg", "Astronaut")
             , OregoPhoto("http://i.imgur.com/3wQcZeY.jpg", "Satellite"))
 
-    fun add(oregoPhoto: OregoPhoto) = this.oregoPhotoList.add(oregoPhoto)
+    fun add(oregoPhoto: OregoPhoto) = oregoPhotoList.add(oregoPhoto)
 
-    fun remove(oregoPhoto: OregoPhoto) = this.oregoPhotoList.remove(oregoPhoto)
+    fun remove(oregoPhoto: OregoPhoto) = oregoPhotoList.remove(oregoPhoto)
 
     fun getSpacePhotos(): List<OregoPhoto> = oregoPhotoList
 }

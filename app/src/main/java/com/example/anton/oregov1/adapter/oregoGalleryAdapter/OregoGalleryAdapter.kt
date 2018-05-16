@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.example.anton.oregov1.R
 import com.example.anton.oregov1.activity.MainActivity
-import com.example.starkre.oregoglidegalery.oregoPhotoManagement.OregoPhotoManager
+import com.example.anton.oregov1.oregoPhotoManagement.OregoPhotoManager
 
 class OregoGalleryAdapter : RecyclerView.Adapter<OregoViewHolder>() {
 

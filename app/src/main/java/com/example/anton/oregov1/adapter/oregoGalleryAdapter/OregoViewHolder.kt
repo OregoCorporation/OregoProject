@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.ImageView
 import com.example.anton.oregov1.R
-import com.example.starkre.oregoglidegalery.oregoPhotoManagement.OregoPhotoManager
+import com.example.anton.oregov1.oregoPhotoManagement.OregoPhotoManager
 
 class OregoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 

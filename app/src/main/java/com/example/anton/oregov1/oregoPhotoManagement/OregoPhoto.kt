@@ -1,4 +1,4 @@
-package com.example.starkre.oregoglidegalery;
+package com.example.anton.oregov1.oregoPhotoManagement;
 
 import android.os.Parcel
 import android.os.Parcelable
