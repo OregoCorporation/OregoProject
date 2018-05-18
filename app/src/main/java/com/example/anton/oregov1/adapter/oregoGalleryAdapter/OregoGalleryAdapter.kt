@@ -19,7 +19,7 @@ class OregoGalleryAdapter : RecyclerView.Adapter<OregoViewHolder>() {
 
     override fun onBindViewHolder(holder: OregoViewHolder, position: Int) {
         val spacePhoto = OregoPhotoManager.getSpacePhotos()[position]
-        val imageView = holder.mPhotoImageView
+        val imageView = holder.photoImageView
         Glide.with(MainActivity.THIS)
                 .load(spacePhoto.url)
                 .into(imageView)

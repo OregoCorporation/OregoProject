@@ -13,7 +13,7 @@ object OregoPhotoManager {
 
     fun add(oregoPhoto: OregoPhoto) = oregoPhotoList.add(oregoPhoto)
 
-    fun remove(oregoPhoto: OregoPhoto) = oregoPhotoList.remove(oregoPhoto)
+    fun removeAt(position: Int) = oregoPhotoList.removeAt(position)
 
     fun getSpacePhotos(): List<OregoPhoto> = oregoPhotoList
 }
